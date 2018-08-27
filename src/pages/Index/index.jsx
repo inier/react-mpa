@@ -2,7 +2,7 @@ import React, { Component, Fragment } from "react";
 import Header from "../../component/Header";
 import Footer from "../../component/Footer";
 
-import "../../public/css/index.pcss";
+import "./index.pcss";
 
 class Index extends Component {
     render() {

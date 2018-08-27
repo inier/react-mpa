@@ -1,6 +1,7 @@
 import React from "react";
 import MainNav from "../MainNav";
-import "../../public/css/common.pcss";
+import "../../assets/css/common.pcss";
+import "./index.pcss";
 
 const Header = ({ active }) => (
   <div className="header">

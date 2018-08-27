@@ -1,5 +1,6 @@
 import React from "react";
-import "../../public/css/common.pcss";
+import "../../assets/css/common.pcss";
+import "./index.pcss";
 
 const Footer = () => (
   <div className="footer">

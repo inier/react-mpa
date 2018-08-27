@@ -1,0 +1,42 @@
+@import "./_settings.css";
+
+* {
+    box-sizing: border-box;
+    &:before,
+    &:after {
+        box-sizing: inherit;
+    }
+}
+
+html,
+body {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    height: 100%;
+    min-height: 100%;
+}
+body {
+    margin: 0;
+}
+.con-wrap {
+    min-width: $page-min-width;
+    max-width: $page-max-width;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+#root {
+    position: relative;
+    height: 100%;
+    padding-top: $header-height;
+    padding-bottom: $footer-height;
+    text-align: center;
+
+    .header,
+    .footer {
+        position: absolute;
+        width: 100%;
+    }
+
+    .main {
+        margin: 50px auto 100px;
+    }
+}
